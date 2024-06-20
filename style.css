@@ -1,0 +1,19 @@
+
+.screen {
+    height: 10vh;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+.rows {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+button {
+    margin: 10px;
+    width: 100%;
+    height: auto;
+}
