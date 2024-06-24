@@ -11,9 +11,33 @@
     flex: 1;
     justify-content: space-around;
 }
-
 button {
     margin: 10px;
     width: 100%;
     height: auto;
+    font-weight: bolder;
+}
+
+.operators > button {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex: auto;
+}
+
+.operators {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers {
+    width: 70%;
+}
+
+.input, .answer {
+    height: 50%;
+    border: 1px solid #000;
 }
